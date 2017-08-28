@@ -495,7 +495,7 @@ var GiftedMessenger = React.createClass({
               keyboardDismissMode='interactive'
             */
         
-            keyboardShouldPersistTaps={true}
+            keyboardShouldPersistTaps="always"
             keyboardDismissMode='on-drag'
         
             {...this.props}
